@@ -25,7 +25,7 @@ section{
     justify-content: space-evenly;
     font-family: 'Montserrat', sans-serif;
 }
-div{
+section div{
     width: 40%;
 }
 div ul{
@@ -33,4 +33,21 @@ list-style-type: none;
 }
 ul li:nth-child(even){
     color: rgb(233, 12, 12)
+}
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+input:focus{
+    background-color: lightgrey;
+    width: 100px;
+    height: 25px;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
 }
