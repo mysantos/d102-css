@@ -17,5 +17,20 @@ nav a{
 header{
     background-image: url("images/kages.jpg");
     background-size: cover;
-    height: 600px;
+    height: 450px;
+}
+section{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+div{
+    width: 40%;
+}
+div ul{
+list-style-type: none;
+}
+ul li:nth-child(even){
+    color: rgb(233, 12, 12)
 }
