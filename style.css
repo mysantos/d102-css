@@ -42,12 +42,30 @@ input:focus{
     width: 100px;
     height: 25px;
 }
-footer div{
+footer div:nth-child(1){
     display: flex;
     justify-content: center;
     align-items: center;
 }
+footer div::nth-child(2){
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
 footer{
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+footer div{
     display: flex;
     justify-content: space-between;
+    align-content: center;
+}
+.img{
+    width: 121px;
 }
